@@ -1,19 +1,21 @@
 <template>
 	<div id="app">
-		<img src="./assets/logo.png" />
-		<h1>{{msg}}</h1>
-		<firstcomponent></firstcomponent>
+		<my-header></my-header>
+		<nav-list></nav-list>
+		<!--<my-cont></my-cont>-->
+		<router-view></router-view>
 	</div>
 </template>
 <script>
-import firstcomponent from './components/firstcomponent.vue'
+import myHeader from './components/header/myHeader.vue'
+import nav_list from './components/tab/nav_list.vue'
+import mcont	from './components/content/mcont.vue'
 export default {
-	data() {
-		return {
-			msg: 'Hello Vue'
-		}
-	},
-	components:{firstcomponent}
+	components:{
+		myHeader,
+		'nav-list':nav_list,
+		'my-cont':mcont
+	}
 }
 </script>
 <style>

@@ -8,6 +8,10 @@ import router from './router'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
+//const routes=[{path:'/page',component:page}]
+/*const router = new router({
+	routes
+})*/
 new Vue({
   el: '#app',
   router,
