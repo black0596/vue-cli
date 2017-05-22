@@ -8,6 +8,6 @@
 </script>
 
 <style>
-		div{font-size: 1.2rem; text-align: center;}
+		#group{font-size: 1.2rem; text-align: center;margin-top: 45%;color: #18bad8;}
 
 </style>

@@ -8,6 +8,6 @@
 </script>
 
 <style>
-		div{font-size: 1.2rem; text-align: center;}
+		#broadcast{font-size: 1.2rem; text-align: center; color: #e5ac1f;margin-top: 45%;}
 
 </style>

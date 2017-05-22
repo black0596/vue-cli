@@ -8,5 +8,5 @@
 </script>
 
 <style>
-	div{font-size: 1.2rem; text-align: center;}
+	#books{font-size: 1rem; text-align: center; color: #9c755e;margin-top: 45%;}
 </style>

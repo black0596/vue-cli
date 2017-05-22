@@ -3,15 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
+import VueResource from 'vue-resource'
 
-
+Vue.use(VueResource)
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
-//const routes=[{path:'/page',component:page}]
-/*const router = new router({
-	routes
-})*/
+
+
 new Vue({
   el: '#app',
   router,

@@ -2,10 +2,9 @@
 	<div id="myHeader" class="wrap">
 		<header class="clearfix">
 			<h1>
-				<a href="javascript:;">豆瓣</a>
+				<router-link to='/mcont'>豆瓣</router-link>
 			</h1>
 		<div class="tab">
-			
 			<router-link to="/movie">电影</router-link>
 			<router-link to="/books">图书</router-link>
 			<router-link to="/broadcast">广播</router-link>
